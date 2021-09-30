@@ -5,7 +5,7 @@
 	
 	<groupId>com.xdev-software</groupId>
 	<artifactId>xapi-db-oracle-12c</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>6.0.0-SNAPSHOT</version>
 
 	<name>SqlEngine Database Adapter Oracle 12c</name>
 	<description>XAPI SqlEngine Database Adapter for Oracle 12c</description>
@@ -36,14 +36,6 @@
 			<name>GNU Lesser General Public License version 3</name>
 			<url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
 			<distribution>repo</distribution>
-		</license>
-	</licenses>
-
-
-	<licenses>
-		<license>
-			<name>GNU Lesser General Public License version 3</name>
-			<url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
 		</license>
 	</licenses>
 
@@ -96,6 +88,12 @@
 			<groupId>com.xdev-software</groupId>
 			<artifactId>xapi</artifactId>
 			<version>6.0.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>12.2.0.1</version>
 		</dependency>
 	</dependencies>
 
