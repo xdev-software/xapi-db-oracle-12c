@@ -39,14 +39,6 @@
 		</license>
 	</licenses>
 
-
-	<licenses>
-		<license>
-			<name>GNU Lesser General Public License version 3</name>
-			<url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
-		</license>
-	</licenses>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
