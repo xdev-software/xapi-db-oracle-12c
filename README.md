@@ -6,6 +6,8 @@
 
 The XDEV Application Framework provides an abstraction over database dialects as part of its SqlEngine. This module is the Database Adapter for Oracle 12c which includes the Oracle-specific implementation for database access.
 
+Note: This adapter is also compatible with Oracle 10g/11g and replaces the old ``xapi-db-oracle-10g``/``xapi-db-oracle-11g`` database adapters.
+
 ## XDEV-IDE
 XDEV(-IDE) is a visual Java development environment for fast and easy application development (RAD - Rapid Application Development). XDEV differs from other Java IDEs such as Eclipse or NetBeans, focusing on programming through a far-reaching RAD concept. The IDE's main components are a Swing GUI builder, the XDEV Application Framework, and numerous drag-and-drop tools and wizards with which the functions of the framework can be integrated.
 
